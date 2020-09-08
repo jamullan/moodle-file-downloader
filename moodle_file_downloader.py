@@ -116,7 +116,7 @@ def consent():
             waiting = False
 
     consent_to_statement("Do you promsie to not release any files downloaded with this utility nor discuss their contents to those whom the creator would not give consent to?")
-    consent_to_statement("Do you realize that these files may be protected by US Federal Intellectual Property law, and that you may face legal exposure for improperly accessing, storing, or using these files?")
+    consent_to_statement("Do you realize that these files may be protected by US Federal Intellectual Property law, and that you may face legal exposure for improperly using or distributing these files?")
     consent_to_statement("Do you understand that in the process of downloading these files you may overwhelm the Moodle file system, and while unlikely, may cause system interruptions?")
     consent_to_statement("Do you understand that this program will store cookies used to authenticate you in the same folder of this program in an unencrypted format in a file \"cookies.txt\" and that you should not share this program without first deleting this file?")
     consent_to_statement("Do you indemnify and hold harmless the creator of this software for all consequences, direct or percieved, that may arise from using this software, during time of use or thereafter, \nand do you further take full responsibility for any and all actions that may arise from using this software?")
