@@ -1,7 +1,7 @@
 # Moodle File Downloader
 A Python-based program that uses Selenium to automate the process of downloading files across all of a student's Moodle course pages<br />
 <br />
-**NOTICE**: This program interacts with enterprise file storage systems and downloads files that despite you having authorized access to, you may not be able to share with others (e.g., solutions provided to you by your instructor). If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.<br />
+**NOTICE**: This program interacts with enterprise file storage systems and downloads files that despite you having authorized access to, you may not be able to share with others (e.g., solutions provided to you by your instructor). If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.<br /><br />
 **Last updated (this file):** 9/8/2020<br />
 **Author:** John Mullan<br />
 
