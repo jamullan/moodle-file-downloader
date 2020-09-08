@@ -28,7 +28,20 @@ $ . my_venv/bin/activate
 ```
 $ pip3 install selenium
 ```
-8. 
+8. Replace Selenium's Chrome `webdriver.py` file with the one in the root directory of this repository to set Selenium's executable path to the `chromedriver` in the root directory of this repository(**NOTE: if this fails, you may be using a newer version of Python. Replace** `python3.7` **in the path with the appropriate version**)
+```
+$ mv webdriver.py my_venv/lib/python3.7/site-packages/selenium/webdriver/chrome
+```
+Alternatively, you can perform the following insertions into the existing `webdriver.py` file in `my_venv/lib/python3.7/site-packages/selenium/webdriver/chrome`:
+* Along with the other package import:
+```python
+import os
+```
+* At the very top of the `__init__` method:
+```python
+curr_file_path = os.path.abspath(".")
+executable_path = curr_file_path + "/" + "chromedriver"
+```
 ### How to Run
 ```
 # Clone this repository
