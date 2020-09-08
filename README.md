@@ -49,7 +49,7 @@ executable_path = curr_file_path + "/" + "chromedriver"
 ```
 $ . my_venv/bin/activate
 ```
-3. Start the program and follow the prompts in the command line. 
+3. Start the program and follow the prompts in the command line.<br />
 **NOTE**: If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.
 ```
 $ python3 moodle_file_downloader.py
