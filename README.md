@@ -5,6 +5,8 @@
 **Author:** John Mullan<br />
 
 ## Usage
+### Environment Setup
+1. Install the [Google Chrome browser](<https://www.google.com/chrome/>)
 ### How to Run
 ```
 # Clone this repository
