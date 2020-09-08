@@ -1,7 +1,7 @@
 # Moodle File Downloader
 A Python-based program that uses Selenium to automate the process of downloading files across all of a student's Moodle course pages<br />
 <br />
-**NOTICE**: This program interacts with enterprise file storage systems and downloads files that despite you having authorized access to, you may not be able to share with others (e.g., solutions provided to you by your instructor). If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.
+**NOTICE**: This program interacts with enterprise file storage systems and downloads files that despite you having authorized access to, you may not be able to share with others (e.g., solutions provided to you by your instructor). If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.<br />
 **Last updated (this file):** 9/8/2020<br />
 **Author:** John Mullan<br />
 
@@ -54,5 +54,5 @@ $ . my_venv/bin/activate
 ```
 $ python3 moodle_file_downloader.py
 ```
-4. If using Duo or another 2FA, you must check "remember me for 60 days" (or its equivalent option) when prompted
+4. If using Duo or another 2FA, you *must* check "remember me for 60 days" (or its equivalent option) when prompted
 5. When complete, a directory within the root directory of this repository will have your downloaded files (note: this will NOT work for courses where each week's files require you to click on the week to view them, nor will it download a file of folders; videos may be inconsistently downloaded)
