@@ -54,8 +54,8 @@ $ . my_venv/bin/activate
 $ python3 moodle_file_downloader.py
 ```
 **NOTE**: If you are *not* provided with a series of questions that you can agree or disagree to in the command line by the program, you should NOT continue its use.
-1. hi
-2. hi
+4. hi
+5. hi
 
 **NOTE: If using Duo or another 2FA, you must check "remember me for 60 days" (or its equivalent option)**
 5. When complete, a directory within the root directory of this repository will have your downloaded files (note: this will NOT work for courses where each week's files require you to click on the week to view them, nor will it download a file of folders; videos may be inconsistently downloaded)
