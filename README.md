@@ -9,7 +9,7 @@
 1. Install the [Google Chrome browser](<https://www.google.com/chrome/>) if not already installed
 2. Clone this repository
 ```
-$ git clone...
+$ git clone https://github.com/jamullan/moodle-file-downloader.git
 ```
 3. Download the [ChromeDriver](<https://chromedriver.chromium.org>) and place the `chromedriver` executable in the root directory of this repository
 4. Create a Python virtual environment in the root directory
@@ -43,7 +43,14 @@ curr_file_path = os.path.abspath(".")
 executable_path = curr_file_path + "/" + "chromedriver"
 ```
 ### How to Run
+1. Navigate to the root directory of this repository
+2. Activate the Python virtual environment
 ```
-# Clone this repository
-$ git clone ...
+$ . my_venv/bin/activate
 ```
+3. Start the program and follows the prompts in the command line
+```
+python3 moodle_file_downloader.py
+```
+4. **NOTE: If using Duo or another 2FA, you must check "remember me for 60 days" (or its equivalent option)**
+5. When complete, a directory within the root directory of this repository will have your downloaded files (note: this will NOT work for courses where each week's files require you to click on the week to view them, nor will it download a file of folders; videos may be inconsistently downloaded)
